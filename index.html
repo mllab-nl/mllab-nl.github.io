@@ -1,1 +1,45 @@
-Hello World
+<html>
+  <head>
+    <style>
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .999 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .999 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .999 );
+  }
+  100%
+  {
+    transform: scale( .999 );
+  }
+}
+
+div
+{
+  padding: 10px;
+  animation: heartbeat 2s infinite;
+}
+  </style>
+</head>
+<body>
+  <div id="parent">
+    <img src="logo.png" />
+    <div>The wesite is under construction</div>
+  </div>
+</body>
+</html>
